@@ -27,16 +27,16 @@ const features = [
 
 const BenefitsSection = () => {
   return (
-    <section className="relative flex flex-col lg:flex-row items-center justify-between py-16 px-6 lg:py-24 lg:px-20 overflow-hidden bg-white">
+    <section className="relative flex flex-col lg:flex-row items-center justify-between py-16 px-6 lg:py-24 lg:px-20 overflow-hidden bg-white md:gap-8">
       {/* Left section */}
       <div className="relative w-full lg:w-1/2 flex justify-center items-center mb-16 lg:mb-0">
        
         <div className="absolute flex justify-center items-center">
           <svg
             viewBox="0 0 24 24"
-            className="w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] lg:w-[750px] lg:h-[750px] opacity-20 z-0"
+            className="w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] lg:w-[750px] lg:h-[750px] z-0"
           >
-            <circle cx="12" cy="12" r="10" fill="[#0268b6]" />
+            <circle cx="12" cy="12" r="10" fill="#0268b6" />
           </svg>
         </div>
 
@@ -80,7 +80,7 @@ const BenefitsSection = () => {
         </div>
 
         <button className="mt-12 px-10 py-4 text-lg font-semibold text-white bg-[#0268b6] rounded-xl shadow-md hover:bg-[#63b750] transition-all duration-300">
-          Enrol for Mentorship
+          Enroll for Mentorship
         </button>
       </div>
     </section>

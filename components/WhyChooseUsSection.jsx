@@ -53,17 +53,17 @@ const WhyChooseUsSection = () => {
 
   return (
     <div className="m-2 pt-[64px] pb-[32px]">
-      <div className="text-[#0268b6] md:px-30 leading-18 [font-family:'Poppins',sans-serif] text-[clamp(50px,5vw,60px)] font-extrabold text-center mb-10">
+      <div className="text-[#0268b6] md:px-30 leading-18 [font-family:'Poppins',sans-serif] text-[clamp(40px,5vw,50px)] font-extrabold text-center mb-10">
         Why Choose J
         <span className="text-[#67ba4b] hover:text-[rgb(2,104,182)]">EET </span>
         SARTHI Mentorship?
       </div>
 
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-3 gap-6 lg:px-20">
         {features.map(({ title, description, Icon }, index) => (
           <div
             key={index}
-            className="flex flex-col items-start relative pr-4"
+            className="flex flex-col items-start relative p-1"
           >
            
             <div className="absolute right-0 top-0 h-full w-[1px] bg-black rounded"></div>
@@ -72,7 +72,7 @@ const WhyChooseUsSection = () => {
             <div className="flex items-start py-7 mx-auto gap-4">
               {Icon && (
                 <div className="flex-shrink-0">
-                  <Image src={Icon} alt={title} width={50} height={50} />
+                  <Image src={Icon} alt={title} width={70} height={70} />
                 </div>
               )}
               <div>
@@ -89,7 +89,7 @@ const WhyChooseUsSection = () => {
 
       <div className="mt-12">
         <button className="block mx-auto px-14 py-5 text-xl font-bold text-white rounded-lg bg-[#0268b6] hover:bg-[#63b750]">
-          Enrol for Mentorship
+          Enroll for Mentorship
         </button>
       </div>
     </div>

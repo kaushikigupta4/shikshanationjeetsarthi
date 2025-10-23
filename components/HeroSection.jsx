@@ -70,7 +70,7 @@ const HeroSection = () => {
               </label>
               <input
                 type="text"
-                placeholder="Phone Number"
+                placeholder="+91"
                 className="w-full p-2 rounded-sm text-black bg-white"
                 required
               />
@@ -88,7 +88,7 @@ const HeroSection = () => {
                 className="w-full p-2 rounded-md text-black bg-white"
                 required
               >
-                <option value="">Select Class</option>
+                <option value="">Dropper</option>
                 <option value="12th">12th</option>
                 <option value="11th">11th</option>
                 <option value="10th">10th</option>
@@ -105,7 +105,7 @@ const HeroSection = () => {
                 className="w-full p-2 rounded-md text-black bg-white"
                 required
               >
-                <option value="">Select Exam</option>
+                <option value="">NEET</option>
                 <option value="NEET">NEET</option>
                 <option value="Boards + NEET">Boards + NEET</option>
                 <option value="Boards + IIT JEE">Boards + IIT JEE</option>

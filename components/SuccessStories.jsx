@@ -94,7 +94,7 @@ They showed me how to study strategically and believe in myself. It completely c
 
       <Carousel
         className="max-w-7xl mx-auto"
-        onValueChange={(index) => setActiveIndex(index)}
+        
       >
         <CarouselContent>
           {testimonialChunks.map((chunk, index) => (

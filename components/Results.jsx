@@ -5,7 +5,7 @@ import Image from "next/image";
 const Results = () => {
   return (
     <div className="m-2 pt-[64px] pb-[32px]  bg-gradient-to-r from-[#0268b6] to-[#63b750]">
-      <div className="text-white [font-family:'Poppins',sans-serif] text-[clamp(50px,5vw,60px)] font-extrabold text-center mb-10 ">
+      <div className="text-white [font-family:'Poppins',sans-serif] text-[clamp(40px,5vw,50px)] font-extrabold text-center mb-10 ">
         Our Experience = Your Results
       </div>
       {/* Middle section */}
@@ -19,7 +19,7 @@ const Results = () => {
               width={100}
             ></Image>
           </div>
-          <div className="font-bold text-xl">
+          <div className="font-bold text-xl text-center">
             100+ Years of combined Mentorship Expertise
           </div>
         </div>
@@ -33,7 +33,7 @@ const Results = () => {
               width={100}
             ></Image>
           </div>
-          <div className="font-bold text-xl">
+          <div className="font-bold text-xl text-center">
             Thousands of Aspirants Guided by Rankers
           </div>
         </div>
@@ -48,7 +48,7 @@ const Results = () => {
               width={100}
             ></Image>
           </div>
-          <div className="font-bold text-xl">
+          <div className="font-bold text-xl text-center">
             One-on-One Daily Support to Keep You Disciplined
           </div>
         </div>
@@ -63,7 +63,7 @@ const Results = () => {
               width={100}
             ></Image>
           </div>
-          <div className="font-bold text-xl">
+          <div className="font-bold text-xl text-center">
             Tailored Plans That Save Time & Maximize Practice
           </div>
         </div>

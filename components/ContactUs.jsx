@@ -15,7 +15,7 @@ const ContactUs = () => {
      
       <div className="relative flex flex-col md:flex-row text-white">
         <div className="w-full md:px-7 p-4">
-          <div className="font-extrabold text-[clamp(40px,5vw,60px)] text-center mb-10 [font-family:'Poppins',sans-serif]">
+          <div className="font-extrabold text-[clamp(40px,5vw,50px)] text-center mb-10 [font-family:'Poppins',sans-serif]">
             Start Your Success Journey With{" "}
             <span className="text-[#67ba4b]">JEET SARTHI</span>
           </div>
